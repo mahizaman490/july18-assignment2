@@ -98,10 +98,12 @@ align-items: center;
 width: 50%;
 justify-content: center;
 
+
 }
 
 .logo-container p{
     font-size:30px ;
+    font-weight: 700;
 }
 .banner-container .banner-text h1{
 margin-bottom: 15px;
@@ -118,6 +120,7 @@ align-items: center;
     text-decoration: none;
     color: black;
     font-size: 13px;
+    
 }
 
 .logo-container img{
@@ -126,13 +129,13 @@ margin-right:10px;
     
     height:30px;
 }
-.follow{
+/* .follow{
 
     background-color: rgb(226, 225, 225);
     border-radius: 5px;
     padding:10px 20px;
 
-}
+} */
 
 
 
@@ -164,8 +167,8 @@ background-image: url('images/Group\ 14.png');
 background-size: contain;
 /* text-align: center; */
 margin-top: 40px;
-margin-left:0.1%;
-text-align:center;
+margin-left:10%;
+text-align:left;
 
 }
 .discunt-container{
