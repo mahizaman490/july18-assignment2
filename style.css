@@ -269,12 +269,13 @@ grid-template-columns: repeat(4,1fr);
 @media screen and (min-width: 300px) and (max-width:700px) {
     .nav-container{
 
-      
+      margin-bottom:150px;
         flex-direction: column;
         
         }
-
-
+   .discunt-section{
+    margin: 50px auto;
+   }
         .nav-item-container{
 
             flex-direction: column;
@@ -301,7 +302,7 @@ justify-content: center;
 }
 .banner-img{
     width: 100%;
-    margin-bottom:400px ;
+    margin-bottom:700px;
   
 }
 
