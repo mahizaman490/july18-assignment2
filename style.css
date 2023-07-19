@@ -3,7 +3,11 @@
 box-sizing: border-box;
 font-family: Arial;
 }
-
+p{
+    font-size: 14px;
+    color: rgb(31, 30, 30);
+    font-weight: 500;   
+}
 .nav-container{
 
 display: flex;
@@ -15,6 +19,14 @@ margin: 0 auto;
 span{
 color:deeppink;
 
+}
+
+.discunt-section .discunt-container .img2{
+    max-height: 200px;
+    max-width: 170px;
+    position: absolute;
+    top: 240px;
+    left: 360px;
 }
 .logo-container{
 min-height: 50px;
@@ -71,6 +83,17 @@ display: flex;
 
 }
 
+.discunt-section{
+
+    max-width: 1400px;
+margin:170px auto ;
+min-height:200px;
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+}
 .banner-text{
 
 width: 50%;
@@ -78,10 +101,35 @@ background-image: url('images/Group\ 14.png');
 background-size: contain;
 /* text-align: center; */
 margin-top: 40px;
-margin-left:12%;
+margin-left:0.1%;
+text-align:center;
+
+}
+.discunt-container{
+   
+width: 50%;
+position: relative;
+}
+
+.discunt-container .img1{
+    width: 80%;
+    height: 85%;
+    display: block;
+    margin: 0 auto;
+   
+    position: relative; 
+
+    
+}
+.discunt-text{
+    width: 50%;
+    margin-left: 20%;
 
 }
 
+.discunt-text p{
+line-height: 30px;
+}
 .banner-img{
 
 width: 50%;
@@ -202,22 +250,25 @@ grid-template-columns: repeat(4,1fr);
 flex-direction:column;
 justify-content: center;
 }
+
+
 .banner-text{
-    margin-top: 300px;
+    margin-top:300px;
     width: 100%;
     text-align: center;
-    margin-left:5%;
+    margin-left:4%;
     margin-bottom:70px;
 }
 .banner-img{
     width: 100%;
+    margin-bottom:400px ;
   
 }
 
 
 .card-container{
     
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns:1fr;
     
     
     }
@@ -225,4 +276,56 @@ justify-content: center;
         text-align: center;
     }
     
+    .discunt-section{
+    flex-direction: column;
+
+    }
+    .discunt-section .discunt-container .discunt-text{
+    text-align: center;
+    }
+    .discunt-container .img1{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+       
+        position: relative; 
+    
+        
+    }
+    .discunt-section .discunt-container .img2{
+        max-height: 200px;
+        max-width: 100px;
+        position: absolute;
+        top: 110px;
+        left: 120px;
+    }
+
+    .discunt-section .discunt-container{
+
+        margin-bottom: 70px;
+    } 
+
+}
+
+@media screen and (min-width: 700px) and (max-width:900px) {
+    .discunt-container .img1{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+       
+        position: relative; 
+    
+        
+    }
+    .discunt-section .discunt-container .img2{
+        max-height: 200px;
+        max-width: 100px;
+        position: absolute;
+        top: 180px;
+        left: 220px;
+    }
+
+
 }
