@@ -125,18 +125,60 @@ width: 50%;
     -webkit-background-clip:text;
     
 }
+.gradiant{
+    font-weight:800;
+  font-size: 30px;
+    background-image: linear-gradient(to bottom,rgb(218, 52, 140),rgb(160, 23, 160));
+    color: transparent;
+    -webkit-background-clip:text;
+    
 
+}
 .banner-container .banner-text p{
     font-size: 14px;
     color: rgb(31, 30, 30);
     font-weight: 500;
 }
+.card-container h2{
+    font-weight:800;
+font-size: 30px;
+}
 
+
+.card-container{
+display: grid;
+
+max-width: 1400px;
+
+margin: 50px auto 0;
+text-align: center;
+grid-template-columns: repeat(4,1fr);
+
+}
+
+.card{
+   
+  padding: 20px;
+  
+   
+} 
+
+.card img:hover{
+   border-radius: 20px;
+    border: 3px solid rgb(255, 0, 55);
+    opacity: 0.6;
+ } 
+.card p{
+    text-align: justify;
+}
+.card img{
+    width: 100%;
+}
 .fa-brands{
     font-size: 20px;
     margin-right:4px ;
 }
-@media screen and (min-width: 400px) and (max-width:700px) {
+@media screen and (min-width: 300px) and (max-width:700px) {
     .nav-container{
 
       
@@ -156,6 +198,31 @@ width: 50%;
               margin-top: 25px;
             }
             
+.banner-container{
+flex-direction:column;
+justify-content: center;
+}
+.banner-text{
+    margin-top: 300px;
+    width: 100%;
+    text-align: center;
+    margin-left:5%;
+    margin-bottom:70px;
+}
+.banner-img{
+    width: 100%;
+  
+}
 
 
+.card-container{
+    
+    grid-template-columns: repeat(1,1fr);
+    
+    
+    }
+    .card-container .card p{
+        text-align: center;
+    }
+    
 }
