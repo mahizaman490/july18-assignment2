@@ -76,7 +76,8 @@ footer{
     gap:20px;
     border: 1px solid black;
     background-color: rgb(13, 0, 24);
-    padding-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 50px;
 
 }
 .discunt-section .discunt-container .img2{
